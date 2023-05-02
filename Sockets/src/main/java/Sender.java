@@ -45,7 +45,7 @@ public class Sender extends Thread
                 writer.close();
                 socket.close();
                 locks.get(destination).unlock();
-                //sleep(100);
+                //sleep(10);
                 //System.out.println();
             }
 
